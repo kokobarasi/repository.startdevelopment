@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+
+<addon id="plugin.videos.first" name="My First Add-on Testing" version="0.0.1" provider-name="Ericson">
+	<requires>
+		<import addon="xbmc.python" version="3.7.11" />
+		<import addon="script.module.beautifulsoup4"     version="4.6.2"/>
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable video</provides>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">My first add-on testing</summary>
+		<description lang="en">My first add-on testing</description>
+		<platform>all</platform>
+		<news></news>
+		<genre>adult,movies,music,trailers,tvshows,uk,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+
+</addon>
+
+<addon id="repository.startdevelopment" name="Kokobarrasi Repo" version="0.0.1" provider-name="Eric">
+
+	<extension point="xbmc.addon.repository" name="Kokobarrasi Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+
+		<info compressed="false">https://raw.githubusercontent.com/kokobarasi/repository.startdevelopment/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kokobarrasi/repository.startdevelopment/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kokobarasi/repository.startdevelopment/master/zips/</datadir>
+
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">My first add-on repository</summary>
+		<description lang="en">My first add-on repository</description>
+		<genre>adult,movies,music,trailers,tvshows,uk,usa</genre>
+	</extension>
+</addon>
+</addons>
