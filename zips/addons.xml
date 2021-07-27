@@ -3,7 +3,7 @@
 
 <addon id="plugin.videos.first" name="My First Add-on Testing" version="0.0.1" provider-name="Ericson">
 	<requires>
-		<import addon="xbmc.python" version="3.7.11" />
+		<import addon="xbmc.python" version="3.6.0" />
 		<import addon="script.module.beautifulsoup4"     version="4.6.2"/>
 	</requires>
 
